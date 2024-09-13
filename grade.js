@@ -24,7 +24,7 @@ function calculate() {
     // Output
     document.getElementById("diem_tb").innerHTML = " " + diem_tb;
     document.getElementById("loai").innerHTML = " " + loai;
-    con = confirm('Xoá điểm đã điền?');
+    // con = confirm('Xoá điểm đã điền?');
     if (con) {
         document.getElementById("toan").value = "";
         document.getElementById("van").value = "";
